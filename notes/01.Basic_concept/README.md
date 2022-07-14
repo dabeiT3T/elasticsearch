@@ -78,3 +78,19 @@ Elasticsearch `7.0` 以下版本默认为一个索引创建 5 个主分片，并
 ### Transport
 
 `Transport` 代表 Elasticsearch 内部节点或集群与客户端的交互方式，默认使用 TCP 协议进行交互。同时支持通过插件的方式集成，因此也可以使用 HTTP 协议（JSON 格式）、thrift、servlet、memcache、zeroMQ 等传输协议进行交互。
+
+### X-Pack
+
+X-Pack 是 elasticsearch 的一个商业版扩展包，包含安全 Security、警告 Altering、监控 Monitoring、图形 Graph 和报告 Reporting、机器学习 MachineLearning 等多种高级功能。
+
+### Beats
+
+Beats 是轻量级的数据采集工具，集合了多种单一用途的数据采集器。它们从成百上千或成千上万台机器和系统向 Logstash 或 Elasticsearch 发送数据。
+
+### Logstash
+
+Logstash 作为服务器端的数据处理管道，通过输入、过滤和输出插件，动态地从多个来源采集数据，并加工和转换成任何类型的事件，最终将数据存储到所选择的位置。
+
+### Kibana
+
+Kibana 是灵活的数据分析和可视化工具，支持多用户登录。在 Kibana 中，可以搜索和查看 Elasticsearch 索引中的数据，并进行交互。
